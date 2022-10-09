@@ -8,7 +8,7 @@ Esp.Enabled = false
 Esp.Tracers = false
 Esp.Boxes = false
 
-local Window = Library:CreateWindow("Goofy Evade 🐒", Vector2.new(500, 300), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("Goofy Evade 🐒", Vector2.new(500, 300), Enum.KeyCode.F4)
 local Evade = Window:CreateTab("General")
 local Gamee = Window:CreateTab("Game")
 local Configs = Window:CreateTab("Settings")
